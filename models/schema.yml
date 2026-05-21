@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: customer_summary
+
+    columns:
+      - name: COUNTRY
+        tests:
+          - not_null
+
+      - name: TOTAL_CUSTOMERS
+        tests:
+          - not_null

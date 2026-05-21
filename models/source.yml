@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: raw_data
+    database: "{{ target.database }}"
+    schema: REPORTS_MDA
+
+    tables:
+      - name: customers
