@@ -1,3 +1,9 @@
+{{
+    config(
+        materialized = 'table'
+    )
+}}
+
 SELECT
     COUNTRY,
     COUNT(*) AS TOTAL_CUSTOMERS
